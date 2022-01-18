@@ -1,6 +1,6 @@
-Feature: HRIS Login 
+Feature: HRIS Login Survisor
 
-	Scenario: Testing HRD Login
-		Given User go to the Website
-		When User input username and password and login
-		Then User can login to the Website
+	Scenario: Testing Survisor Login
+		Given User dapat mengisikan url alamat login sistem melalui url browser
+		When User mengisikan username dan password yang sudah di daftarkan
+		Then User dapat click login

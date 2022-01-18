@@ -599,3 +599,71 @@
 2022-01-16 22:41:17,243 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/hrd_new/panel/login/ 
 2022-01-16 22:41:30,011 INFO  [Log] Test called: Testing Surat Peringatan has started 
 2022-01-16 22:42:53,618 INFO  [Log] Test called: Testing logout hrd has started 
+2022-01-17 16:51:46,279 INFO  [Log] Test called: Testing login hrd has started 
+2022-01-17 18:59:22,634 INFO  [Log] Test called: Testing login hrd has started 
+2022-01-17 18:59:25,550 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/hrd_new/panel/login/ 
+2022-01-17 18:59:31,446 INFO  [Log] Test called: Testing Surat Peringatan has started 
+2022-01-18 15:43:38,587 INFO  [Log] Test called: Testing login hrd has started 
+2022-01-18 15:43:41,092 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/hrd_new/panel/login/ 
+2022-01-18 15:43:53,512 INFO  [Log] Test called: Testing Surat Peringatan has started 
+2022-01-18 16:03:39,714 INFO  [Log] Test called: Testing login hrd has started 
+2022-01-18 16:03:41,195 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/hrd_new/panel/login/ 
+2022-01-18 16:03:47,918 INFO  [Log] Test called: Testing Surat Peringatan has started 
+2022-01-18 16:07:34,621 INFO  [Log] Test called: Testing login hrd has started 
+2022-01-18 16:07:37,802 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-18 16:07:49,397 INFO  [Log] Test called: Testing Surat Peringatan has started 
+2022-01-18 17:37:18,894 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-18 17:37:22,604 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-18 17:38:42,838 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-18 17:38:45,937 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-18 18:33:52,627 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-18 18:33:54,823 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-18 18:34:00,543 INFO  [Log] Test called: Testing home page has started 
+2022-01-18 18:43:13,820 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-18 18:43:16,287 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-18 18:43:21,404 INFO  [Log] Test called: Testing home page has started 
+2022-01-18 18:44:33,205 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-18 18:44:34,947 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-18 18:44:39,831 INFO  [Log] Test called: Testing home page has started 
+2022-01-18 18:47:46,702 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-18 18:47:48,824 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-18 18:47:54,726 INFO  [Log] Test called: Testing home page has started 
+2022-01-18 18:48:44,665 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-18 18:48:46,385 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-18 18:48:52,497 INFO  [Log] Test called: Testing home page has started 
+2022-01-18 18:49:37,003 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-18 18:49:39,501 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-18 18:49:46,504 INFO  [Log] Test called: Testing home page has started 
+2022-01-18 19:00:17,550 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-18 19:00:20,257 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-18 19:00:24,924 INFO  [Log] Test called: Testing home page has started 
+2022-01-18 19:02:54,466 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-18 19:02:57,053 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-18 19:03:01,984 INFO  [Log] Test called: Testing home page has started 
+2022-01-18 19:04:39,197 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-18 19:04:41,711 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-18 19:04:47,198 INFO  [Log] Test called: Testing home page has started 
+2022-01-18 19:07:51,991 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-18 19:07:55,053 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-18 19:08:00,101 INFO  [Log] Test called: Testing home page has started 
+2022-01-18 19:10:47,591 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-18 19:10:54,026 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-18 19:11:08,205 INFO  [Log] Test called: Testing home page has started 
+2022-01-18 19:12:10,875 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-18 19:12:19,530 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-18 19:12:31,629 INFO  [Log] Test called: Testing home page has started 
+2022-01-18 19:19:29,484 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-18 19:19:31,908 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-18 19:19:40,682 INFO  [Log] Test called: Testing home page has started 
+2022-01-18 19:28:16,616 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-18 19:28:19,324 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-18 19:28:28,916 INFO  [Log] Test called: Testing home page has started 
+2022-01-18 19:40:19,962 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-18 19:40:22,692 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-18 19:40:31,954 INFO  [Log] Test called: Testing home page has started 
+2022-01-18 19:52:52,147 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-18 19:52:54,730 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-18 19:53:03,782 INFO  [Log] Test called: Testing home page has started 
+2022-01-18 19:55:16,565 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-18 19:55:18,445 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-18 19:55:28,020 INFO  [Log] Test called: Testing home page has started 

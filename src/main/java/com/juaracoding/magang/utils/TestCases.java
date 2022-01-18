@@ -2,9 +2,9 @@ package com.juaracoding.magang.utils;
 
 public enum TestCases {
 
-	T1("Testing login hrd"),
-	T2("Testing Surat Peringatan"),
-	T3("Testing logout hrd");
+	T1("Testing login survisor"),
+	T2("Testing home page");
+	
 	
 	private String testName;	
 

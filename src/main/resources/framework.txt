@@ -1,5 +1,3 @@
 browser=Chrome
-myusername=admindika2
-password=d1k4@passw0rd
-namaTemplate=TeamABBL
-jumlahHalaman=3
+myusername=EXD8120011
+password=admin12345

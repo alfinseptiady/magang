@@ -11,11 +11,8 @@ import org.springframework.test.context.ContextConfiguration;
 
 import com.juaracoding.magang.config.AutomationFrameworkConfiguration;
 import com.juaracoding.magang.driver.DriverSingleton;
+import com.juaracoding.magang.page.HomeMyTask;
 import com.juaracoding.magang.page.LoginPage;
-import com.juaracoding.magang.page.LogoutPage;
-import com.juaracoding.magang.page1.SuratPage;
-//import com.juaracoding.magang.page.cuti.CutiPage;
-//import com.juaracoding.magang.page.cuti.PeringatanPage;
 import com.juaracoding.magang.utils.ConfigurationProperties;
 import com.juaracoding.magang.utils.Constants;
 import com.juaracoding.magang.utils.Log;
@@ -39,10 +36,8 @@ public class StepDefinition {
 
 	private WebDriver driver;
 	private LoginPage loginPage;
-//	private AddPriode addPriode;
-//	private CutiPage cutiPage;
-	private SuratPage suratPage;
-	private LogoutPage logoutPage;
+	private HomeMyTask homeMyTask;
+
 	ExtentTest extentTest;
 	static ExtentReports report = new ExtentReports("src/main/resources/TestReport.html");
 	
@@ -53,9 +48,7 @@ public class StepDefinition {
 	public void initializeObjects() {
 		DriverSingleton.getInstance(configurationProperties.getBrowser());
 		loginPage = new LoginPage();
-//		cutiPage = new CutiPage();
-		suratPage = new SuratPage();
-		logoutPage = new LogoutPage();
+		homeMyTask = new HomeMyTask();
 		
 		TestCases[] tests = TestCases.values();
 		extentTest = report.startTest(tests[Utils.testCount].getTestName());
@@ -64,149 +57,108 @@ public class StepDefinition {
 		Utils.testCount++;
 	}
 	
-	// Scenario login hrd
-	@Given("^User go to the Website")
-	public void user_go_to_the_Website() {
+	// Scenario login manager
+//	1LoginPage.feature
+	@Given("^User dapat mengisikan url alamat login sistem melalui url browser")
+	public void user__dapat_mengisikan_url_alamat_login_sistem_melalui_url_browser() {
 		driver = DriverSingleton.getDriver();
 		driver.get(Constants.URL);
 		Log.info("INFO: Navigating to " + Constants.URL); //log4j
 		extentTest.log(LogStatus.PASS, "Navigating to " + Constants.URL);
 	}
 	
-	@When("^User input username and password and login")
-	public void user_input_username_and_password_and_login() {
+	@When("^User mengisikan username dan password yang sudah di daftarkan")
+	public void user_mengisikan_username_yang_sudah_di_daftarkan() {
 		loginPage.goToLoggedIn(configurationProperties.getUserName(), configurationProperties.getPassword());
-		extentTest.log(LogStatus.PASS, "User input username password and click Login");
-	}
-	@Then("^User can login to the Website")
-	public void user_can_login_to_the_website() {
-		 loginPage.goToLoginPage();
-		 extentTest.log(LogStatus.PASS, "User can login to the Website");
-	}
-	
-// surat1
-	@Given("^User can scroll down in sidebar")
-	public void user_can_scroll_down_in_sidebar() {
-	//	cutiPage.cuti();
-		suratPage.surat1();
-		extentTest.log(LogStatus.PASS, "user can scroll down in sidebar");
-	}
-	
-	@Then("^User can click Surat peringatan and upload surat peringatan")
-	public void user_can_click_surat_peringatan_and_upload_surat_peringatan() {
-	//	cutiPage.cuti();
-		suratPage.surat1();
-		extentTest.log(LogStatus.PASS, "User can click Surat peringatan and upload surat peringatan");
-	}
-	
-	@When("^User can upload data1")
-	public void user_can_upload_data() {
-		suratPage.upload1();
-		extentTest.log(LogStatus.PASS, "User can upload data");
-	}
-	@When("^User can choose file")
-	public void user_can_choose_file() {
-		suratPage.file();
-		extentTest.log(LogStatus.PASS,"User can choose file");	
-	}
-	@When("^User can choose tipe")
-	public void user_can_choose_tipe() {
-		suratPage.tipe(2);
-		extentTest.log(LogStatus.PASS,"User can choose tipe");
-	}
-	@When("^User can choose katagori")
-	public void user_can_choose_katagori() {
-		suratPage.katagori(1);
-		extentTest.log(LogStatus.PASS,"User can choose katagori");
-	}
-	@Then("^User can click upload1")
-	public void user_can_click_upload1() {
-		suratPage.btnUpload1();
-		extentTest.log(LogStatus.PASS,"User can click upload1");
-	}
-//	surat peringatan2
-	@Given("^User can scroll down in sidebar2")
-	public void user_can_scroll_down_in_sidebar2() {
-		suratPage.surat2();
-		extentTest.log(LogStatus.PASS, "User can scroll down in sidebar2");
-	}
-	@Then("^User can click Surat peringatan and setup template surat")
-	public void user_can_click_surat_peringatan_and_setup_template_surat() {
-		suratPage.surat2();
-		extentTest.log(LogStatus.PASS, "User can click Surat peringatan and setup template surat");
-	}
-	@Given("^User can click upload data2")
-	public void user_can_click_upload_data2() {
-		suratPage.upload2();
-		extentTest.log(LogStatus.PASS, "User can click upload data2");
-	}
-	@When("^User can input nama template")
-	public void user_can_input_nama_template() {
-		suratPage.inputNamaTemplate(configurationProperties.getNamaTemplate());
-		extentTest.log(LogStatus.PASS, "User can input nama template");
-	}
-	@When("^User can input jumlah halaman")
-	public void user_can_input_jumlah_halaman() {
-		suratPage.inputJumlah(configurationProperties.getJumlah());
-		extentTest.log(LogStatus.PASS, "User can input jumlah halaman");
-	}
-	@When("^User can choose browse file")
-	public void user_can_choose_browse_file() {
-		suratPage.browseFile();
-		extentTest.log(LogStatus.PASS,"User can choose browse file");
-	}
-	@Then("^User can click upload2")
-	public void user_can_click_upload2() {
-		suratPage.upload3();
-		extentTest.log(LogStatus.PASS, "User can click upload2");
-	}
-//	surat peringatan3
-	@Given("^User can scroll down in sidebar3")
-	public void user_can_scroll_down_in_sidebar3() {
-		suratPage.surat3();
-		extentTest.log(LogStatus.PASS, "User can scroll down in sidebar3");
-	}
-	
-	@When("^User can click surat peringatan and request surat")
-	public void user_can_click_surat_peringatan_and_request_surat() {
-		suratPage.surat3();
-		extentTest.log(LogStatus.PASS, "User can click surat peringatan and requset surat");
+		extentTest.log(LogStatus.PASS, "User mengisikan username yang sudah di daftarkan");
 	}
 
+	@Then("^User dapat click login")
+	public void user_dapat_click_login() {
+		loginPage.goToLoginPage();
+		extentTest.log(LogStatus.PASS, "User dapat click login");
+	}
 	
+//	homeMyTask
+//	HomePage.feature
+	@Given("^User dapat click pengajuan cuti dan menampilkan pengajuan cuti di form data")
+	public void User_dapat_click_pengajuan_cuti_dan_menampilkan_pengajuan_cuti_di_form_data() {
+		homeMyTask.pengajuanCuti();
+		extentTest.log(LogStatus.PASS,"User dapat click pengajuan cuti dan menampilkan pengajuan cuti di form data");
+	}
 	
+//	1
+	@When("^User click home dan kembali ke my task1")
+	public void User_click_home_dan_kembali_ke_my_task1() {
+		homeMyTask.backToHome();
+		extentTest.log(LogStatus.PASS, "User click home dan kembali ke my task");
+	}
 	
+	@When("^User dapat click persetujuan cuti dan menampilkan persetujuan cuti di form data")
+	public void User_dapat_click_persetujuan_cuti_dan_menampilkan_persetujuan_cuti_di_form_data() {
+		homeMyTask.approvalCuti();
+		extentTest.log(LogStatus.PASS, "User dapat click persetujuan cuti dan menampilkan persetujuan cuti di form data");
+	}
 	
+//	2
+	@When("^User click home dan kembali ke my task2")
+	public void User_click_home_dan_kembali_ke_my_task2() {
+		homeMyTask.backToHome();
+		extentTest.log(LogStatus.PASS, "User click home dan kembali ke my task");
+	}
 	
-//	@When("^User can click action")
-//	public void user_can_click_action() {
-//		 addPriode.btnAction();
-//		 extentTest.log(LogStatus.PASS, "User can click action");
-//	}
-//	
-//	@When("^User create new")
-//	public void user_create_new() {
-//		 addPriode.btnCreate();
-//		 extentTest.log(LogStatus.PASS, "User can click action");
-//	}
-//	
-//	@When("^User click zoom out")
-//	public void user_click_zoom_out() {
-//		addPriode.btnZoomOut();
-//		extentTest.log(LogStatus.PASS, "User click zoom out");
-//	}
-//	
-//	@When("^User click number list")
-//	public void user_click_number_list() {
-//		 addPriode.btnNumber();
-//		 extentTest.log(LogStatus.PASS, "User can click action");
-//	}
-//	
-//	@When("^User click set holiday")
-//	public void user_click_set_holiday() {
-//		 addPriode.setHoliday();
-//		 extentTest.log(LogStatus.PASS, "User click set holiday");
-//	}
+	@When("^User dapat click promotion dan menampilkan promotion di dalam form promotion")
+	public void user_dapat_click_promotion_dan_menampilkan_promotion_di_dalam_form_promotion() {
+		homeMyTask.Promotion();
+		extentTest.log(LogStatus.PASS, "User dapat click promotion dan menampilkan promotion di dalam form promotion");
+	}
+	
+//	3
+	@When("^User click home dan kembali ke my task3")
+	public void User_click_home_dan_kembali_ke_my_task3() {
+		homeMyTask.backToHome();
+		extentTest.log(LogStatus.PASS, "User click home dan kembali ke my task");
+	}
+	
+	@When("^User dapat click approval invoice dan menampilkan approval invoice yang berada di form sami")
+	public void User_dapat_click_approval_invoice_dan_menampilkan_approval_invoice_yang_berada_di_form_sami() { 
+		homeMyTask.approvalInvoice();
+		extentTest.log(LogStatus.PASS, "User dapat click approval invoice dan menampilkan approval invoice yang berada di form sami");
+	}
+	
+//	4
+	@When("^User click home dan kembali ke my task4")
+	public void User_click_home_dan_kembali_ke_my_task4() {
+		homeMyTask.backToHome();
+		extentTest.log(LogStatus.PASS, "User click home dan kembali ke my task");
+	}
+	
+
+	@When("^User dapat click request staff dan menampilkan pending yang berada di form request staff")
+	public void User_dapat_click_request_staff_dan_menampilkan_pending_yang_berada_di_form_request_staff() {
+		homeMyTask.requestStaff();
+		extentTest.log(LogStatus.PASS, "User dapat click request staff dan menampilkan pending yang berada di form request staff");
+	}
+	
+//	5
+	@When("^User click home dan kembali ke my task5")
+	public void User_click_home_dan_kembali_ke_my_task5() {
+		homeMyTask.backToHome();
+		extentTest.log(LogStatus.PASS, "User click home dan kembali ke my task");
+	}
+	
+//	shortSuratPeringatan
+	@When("^User dapat click surat peringatan dan menampilkan list letter yang berada di form surat peringatan")
+	public void User_dapat_click_surat_peringatan_dan_menampilkan_list_letter_yang_berada_di_form_surat_peringatan() {
+		homeMyTask.suratPeringatan();	
+	}
+	
+//	6
+	@Then("^User click home dan kembali ke my task6")
+	public void User_click_home_dan_kembali_ke_my_task6() {
+		homeMyTask.backToHome();
+		extentTest.log(LogStatus.PASS, "User click home dan kembali ke my task");
+	}
 	
 	// Posts
 	

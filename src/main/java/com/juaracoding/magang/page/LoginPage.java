@@ -26,25 +26,29 @@ public class LoginPage {
 	private WebElement txtPassword;
 	
 //	tombol login
-	@FindBy(css = "#page-container > div > div.right-content > div.login-content > form > div.login-buttons > button")
+	@FindBy(css ="#page-container > div > div.login-content > form > div.login-buttons > button")
 	private WebElement btnLogin;
 	
 	
 	public void goToLoginPage() {
+		try {
+			Thread.sleep(2000);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
 		btnLogin.click();
 	}
 	
 	public void goToLoggedIn(String username, String password) {	
+		try {
+			Thread.sleep(2000);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
 		
 		txtUsername.sendKeys(username);
 		txtPassword.sendKeys(password);
 		
 	}
-
-	public Object getDisplayName() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
 
 }
