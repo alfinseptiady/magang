@@ -9,6 +9,14 @@ public class Constants {
 //	untuk login
 	public static final String USERNAME = "username";
 	public static final String PASSWORD = "password";
+	
+	public static final String DATE = "date";
+	public static final String ANSWERSATU	= "answersatu";
+	public static final String ANSWERDUA	= "answerdua";
+	public static final String ANSWERTIGA	= "answertiga";
+	public static final String ANSWEREMPAT	= "answerempat";
+	public static final String GAJI	="gaji";
+	public static final String TUNJANGAN="tunjangan";
 
 
 }

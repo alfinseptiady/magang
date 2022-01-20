@@ -667,3 +667,525 @@
 2022-01-18 19:55:16,565 INFO  [Log] Test called: Testing login survisor has started 
 2022-01-18 19:55:18,445 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
 2022-01-18 19:55:28,020 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 10:30:51,208 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 10:30:54,177 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 10:31:05,972 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 10:32:03,893 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 10:36:47,243 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 10:36:52,065 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 10:37:03,050 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 10:38:01,645 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 10:39:10,787 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 10:39:14,500 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 10:39:27,854 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 10:40:25,380 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 10:41:57,561 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 10:42:01,543 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 10:42:13,714 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 10:43:10,960 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 10:56:06,596 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 10:56:08,392 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 10:56:17,501 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 10:57:05,715 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 11:00:54,829 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 11:00:56,820 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 11:01:16,151 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 11:02:03,951 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 11:03:03,863 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 11:03:05,546 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 11:03:15,455 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 11:04:04,917 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 11:12:49,333 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 11:12:53,443 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 11:13:03,629 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 11:13:53,826 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 11:15:16,229 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 11:15:19,955 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 11:15:32,167 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 11:16:24,438 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 11:38:34,260 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 11:38:36,473 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 11:38:45,466 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 11:39:34,737 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 11:41:53,071 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 11:41:55,215 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 11:42:05,270 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 11:42:57,683 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 13:37:06,426 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 13:37:08,281 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 13:37:17,511 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 13:38:05,573 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 13:53:19,738 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 13:53:22,127 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 13:53:31,209 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 13:54:20,708 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 13:55:16,590 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 13:55:19,227 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 13:55:28,119 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 13:56:17,179 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 14:04:15,291 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 14:04:17,616 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 14:04:29,247 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 14:05:20,821 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 14:06:18,212 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 14:06:21,338 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 14:06:30,461 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 14:07:20,272 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 14:09:03,678 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 14:09:05,828 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 14:09:15,415 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 14:10:08,269 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 14:12:20,604 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 14:12:23,850 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 14:12:33,119 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 14:13:21,606 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 14:14:20,548 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 14:14:22,584 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 14:14:32,469 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 14:15:23,493 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 14:21:26,529 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 14:21:28,651 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 14:21:38,232 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 14:22:31,688 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 14:24:26,829 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 14:24:28,645 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 14:24:37,809 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 14:25:27,912 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 14:28:14,816 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 14:28:32,625 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 14:28:43,947 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 14:29:53,414 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 14:32:23,333 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 14:32:32,103 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 14:32:53,221 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 14:33:46,242 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 14:35:22,198 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 14:35:26,964 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 14:35:39,708 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 14:36:28,302 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 14:36:53,271 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 14:36:56,322 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 14:37:04,777 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 14:37:52,342 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 14:45:47,413 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 14:46:00,939 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 14:46:10,857 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 14:47:09,085 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 14:48:13,285 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 14:48:16,132 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 14:48:24,592 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 14:49:12,070 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 14:55:04,773 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 14:55:06,540 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 14:55:15,756 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 14:56:03,857 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 15:00:59,835 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 15:01:13,404 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 15:01:21,759 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 15:02:09,287 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 15:33:49,886 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 15:33:52,150 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 15:34:01,520 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 15:34:50,315 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 15:35:40,553 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 15:35:42,405 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 15:35:50,765 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 15:36:39,163 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 16:24:09,323 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 16:24:11,647 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 16:24:20,783 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 16:25:09,780 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 16:27:14,518 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 16:27:16,142 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 16:27:24,881 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 16:28:12,791 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 16:40:28,798 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 16:40:30,697 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 16:40:40,314 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 16:41:27,774 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 16:42:34,646 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 16:42:36,326 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 16:42:45,246 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 16:43:32,569 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 16:44:30,651 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 16:44:34,813 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 16:44:43,816 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 16:45:33,025 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 16:47:49,958 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 16:47:52,255 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 16:48:01,307 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 16:48:50,266 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 16:50:38,207 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 16:50:40,022 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 16:50:48,819 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 16:51:41,256 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 16:55:07,492 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 16:55:09,261 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 16:55:18,630 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 16:56:08,476 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 16:58:51,952 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 16:59:01,960 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 16:59:11,829 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 17:00:10,876 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 17:31:39,543 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 17:31:43,175 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 17:31:53,290 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 17:32:42,836 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 17:38:01,197 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 17:38:03,048 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 17:38:11,849 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 17:39:00,491 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 17:40:05,363 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 17:40:07,345 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 17:40:16,847 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 17:41:07,009 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 18:56:29,541 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 18:56:33,280 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 18:56:42,467 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 18:57:29,951 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 19:03:39,808 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 19:03:41,881 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 19:03:50,427 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 19:04:38,923 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 19:09:59,743 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 19:10:01,156 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 19:10:09,912 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 19:10:59,921 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 19:15:11,213 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 19:15:12,686 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 19:15:21,155 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 19:16:09,089 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 19:17:21,291 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 19:17:23,563 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 19:17:32,359 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 19:18:20,613 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 19:19:30,414 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 19:19:33,061 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 19:19:42,355 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 19:20:30,737 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 19:30:41,016 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 19:30:44,255 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 19:30:53,791 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 19:31:42,511 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 19:37:43,312 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 19:37:46,326 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 19:37:55,177 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 19:38:43,974 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 20:00:55,080 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 20:00:59,543 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 20:01:12,136 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 20:02:05,541 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 20:04:28,685 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 20:04:30,175 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 20:04:39,275 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 20:05:26,077 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 20:13:19,246 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 20:13:21,435 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 20:13:29,958 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 20:14:16,879 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 20:17:06,966 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 20:17:08,720 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 20:17:17,812 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 20:18:05,214 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 20:21:15,780 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 20:21:17,664 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 20:21:26,773 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 20:22:16,115 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 20:24:32,681 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 20:24:34,647 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 20:24:43,515 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 20:25:32,672 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 20:28:13,593 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 20:28:15,388 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 20:28:25,118 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 20:29:14,428 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 20:33:43,142 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 20:33:45,580 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 20:33:55,214 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 20:34:43,122 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 20:48:11,753 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 20:48:14,172 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 20:48:23,199 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 20:49:11,811 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 20:51:18,510 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 20:51:20,304 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 20:51:29,726 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 20:52:19,181 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 20:55:05,366 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 20:55:06,729 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 20:55:15,512 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 20:56:02,752 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 21:03:34,333 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 21:03:36,415 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 21:03:45,283 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 21:04:32,472 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 21:06:42,990 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 21:06:44,455 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 21:06:53,589 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 21:07:44,882 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-19 21:09:18,184 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-19 21:09:21,649 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-19 21:09:31,470 INFO  [Log] Test called: Testing home page has started 
+2022-01-19 21:10:18,912 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 10:01:45,649 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 10:01:48,519 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 10:02:01,169 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 10:02:53,837 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 10:44:52,473 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 10:44:56,095 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 10:45:07,508 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 10:46:05,857 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 11:12:52,977 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 11:12:54,516 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 11:13:04,745 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 11:13:54,602 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 11:51:53,615 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 11:51:55,414 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 11:52:05,731 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 11:52:54,395 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 11:54:08,220 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 11:54:11,236 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 11:54:20,275 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 11:55:09,381 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 11:56:48,947 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 11:56:50,266 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 11:56:59,217 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 11:57:47,958 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 12:05:14,891 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 12:05:17,537 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 12:05:26,505 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 12:06:15,574 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 12:11:24,385 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 12:11:26,400 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 12:11:36,441 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 12:12:27,844 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 12:15:16,974 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 12:15:18,344 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 12:15:27,535 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 12:16:14,715 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 12:27:18,353 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 12:27:20,267 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 12:27:29,636 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 12:28:25,208 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 12:30:25,473 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 12:30:27,421 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 12:30:36,686 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 12:31:41,409 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 13:17:25,462 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 13:17:29,758 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 13:17:41,592 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 13:18:30,600 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 13:19:12,791 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 13:21:51,630 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 13:21:53,377 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 13:22:03,425 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 13:22:55,963 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 13:23:10,601 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 13:25:12,595 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 13:25:15,428 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 13:25:26,431 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 13:26:19,924 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 13:27:07,269 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 13:33:07,681 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 13:33:09,793 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 13:33:20,015 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 13:34:12,317 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 13:34:57,926 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 13:35:50,579 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 13:35:53,524 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 13:36:03,392 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 13:36:54,721 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 13:37:42,382 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 13:39:46,502 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 13:39:50,252 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 13:40:00,342 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 13:40:51,830 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 13:41:37,925 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 14:16:04,615 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 14:16:07,047 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 14:16:17,650 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 14:17:08,090 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 14:17:50,658 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 14:28:40,964 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 14:28:42,936 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 14:28:52,399 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 14:29:42,184 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 14:30:24,189 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 14:37:55,121 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 14:37:57,328 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 14:38:07,436 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 14:38:55,560 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 14:39:38,682 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 14:40:30,810 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 14:40:32,279 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 14:40:42,114 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 14:41:30,936 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 14:42:13,898 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 14:43:45,089 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 14:43:55,829 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 14:44:05,998 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 14:45:30,002 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 14:46:45,125 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 14:47:55,513 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 14:47:56,931 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 14:48:06,115 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 14:48:55,434 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 14:49:41,124 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 14:56:00,562 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 14:56:02,210 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 14:56:12,154 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 14:57:00,689 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 14:57:25,744 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 14:58:20,424 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 14:58:22,227 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 14:58:31,802 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 14:59:22,237 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 15:00:05,960 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 15:01:21,353 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 15:01:24,420 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 15:01:33,115 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 15:02:23,809 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 15:03:06,655 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 15:04:38,603 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 15:04:40,527 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 15:04:49,492 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 15:05:42,881 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 15:06:24,574 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 15:09:05,287 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 15:09:08,745 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 15:09:24,589 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 15:10:49,439 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 15:11:17,453 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 15:45:48,455 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 15:45:52,096 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 15:46:03,440 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 15:46:58,664 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 15:54:17,414 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 15:54:20,891 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 15:54:33,748 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 15:54:34,269 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 15:54:34,535 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 15:55:38,481 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 15:55:42,021 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 15:55:54,091 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 15:55:54,441 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 15:56:47,168 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 16:11:40,525 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 16:11:42,771 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 16:11:53,847 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 16:11:54,169 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 16:13:17,466 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 16:13:19,054 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 16:13:28,655 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 16:13:28,993 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 16:13:43,012 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 16:17:16,879 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 16:17:20,093 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 16:17:30,795 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 16:17:31,162 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 16:17:45,218 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 16:18:31,460 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 16:18:33,378 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 16:18:44,064 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 16:18:44,377 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 16:18:58,447 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 16:27:05,114 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 16:27:06,680 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 16:27:15,996 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 16:27:16,354 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 16:27:30,429 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 16:28:54,480 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 16:28:56,065 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 16:29:06,131 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 16:29:54,716 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 16:30:08,765 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 16:50:17,046 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 16:50:19,575 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 16:50:29,303 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 16:51:18,282 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 16:51:32,278 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 16:53:28,641 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 16:53:30,682 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 16:53:40,587 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 16:54:30,051 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 16:54:44,528 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 16:56:20,501 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 16:56:22,395 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 16:56:32,705 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 16:57:21,268 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 16:57:35,158 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 16:58:53,404 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 16:58:55,723 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 16:59:04,789 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 16:59:54,574 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 17:00:08,277 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 17:05:04,101 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 17:05:06,042 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 17:05:15,386 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 17:06:05,218 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 17:06:16,623 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 17:08:12,927 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 17:08:15,100 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 17:08:24,612 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 17:09:16,621 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 17:09:27,609 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 17:13:07,235 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 17:13:09,039 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 17:13:23,858 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 17:14:20,009 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 17:14:34,862 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 17:17:46,434 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 17:17:48,804 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 17:17:59,891 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 17:18:48,597 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 17:19:32,522 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 17:21:04,541 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 17:21:06,447 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 17:21:18,260 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 17:22:11,538 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 17:22:55,243 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 17:28:43,119 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 17:28:46,634 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 17:28:56,539 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 17:29:45,747 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 17:30:27,376 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 18:10:48,582 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 18:10:50,875 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 18:11:00,289 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 18:11:49,155 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 18:12:30,800 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 18:22:00,516 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 18:22:02,837 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 18:22:12,876 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 18:23:00,536 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 18:23:41,287 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 18:27:30,878 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 18:27:33,282 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 18:27:42,641 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 18:28:33,785 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 18:29:15,605 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 18:30:32,911 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 18:30:35,911 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 18:30:47,415 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 18:31:38,265 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 18:32:20,853 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 18:34:19,592 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 18:34:21,739 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 18:34:32,548 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 18:35:22,275 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 18:36:04,795 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 18:41:18,624 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 18:41:21,160 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 18:41:30,870 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 18:42:21,214 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 18:43:03,829 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 18:46:28,328 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 18:46:30,862 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 18:46:40,799 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 18:47:31,230 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 18:48:14,649 INFO  [Log] Test called: Testing Promotion has started 
+2022-01-20 18:50:07,116 INFO  [Log] Test called: Testing login survisor has started 
+2022-01-20 18:50:09,154 INFO  [Log] INFO: Navigating to https://dev.ptdika.com/employee/ 
+2022-01-20 18:50:17,841 INFO  [Log] Test called: Testing home page has started 
+2022-01-20 18:51:04,984 INFO  [Log] Test called: Testing Pengajuan Cuti has started 
+2022-01-20 18:51:45,254 INFO  [Log] Test called: Testing Promotion has started 

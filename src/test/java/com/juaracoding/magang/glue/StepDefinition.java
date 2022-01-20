@@ -4,6 +4,8 @@ import static org.hamcrest.CoreMatchers.containsString;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
 
+import javax.security.auth.callback.ConfirmationCallback;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,8 +13,10 @@ import org.springframework.test.context.ContextConfiguration;
 
 import com.juaracoding.magang.config.AutomationFrameworkConfiguration;
 import com.juaracoding.magang.driver.DriverSingleton;
+import com.juaracoding.magang.page.CutiPage;
 import com.juaracoding.magang.page.HomeMyTask;
 import com.juaracoding.magang.page.LoginPage;
+import com.juaracoding.magang.page.PromotionPage;
 import com.juaracoding.magang.utils.ConfigurationProperties;
 import com.juaracoding.magang.utils.Constants;
 import com.juaracoding.magang.utils.Log;
@@ -37,7 +41,9 @@ public class StepDefinition {
 	private WebDriver driver;
 	private LoginPage loginPage;
 	private HomeMyTask homeMyTask;
-
+	private CutiPage cutiPage;
+	private PromotionPage promotionPage;
+	
 	ExtentTest extentTest;
 	static ExtentReports report = new ExtentReports("src/main/resources/TestReport.html");
 	
@@ -49,6 +55,8 @@ public class StepDefinition {
 		DriverSingleton.getInstance(configurationProperties.getBrowser());
 		loginPage = new LoginPage();
 		homeMyTask = new HomeMyTask();
+		cutiPage = new CutiPage();
+		promotionPage = new PromotionPage();
 		
 		TestCases[] tests = TestCases.values();
 		extentTest = report.startTest(tests[Utils.testCount].getTestName());
@@ -158,6 +166,165 @@ public class StepDefinition {
 	public void User_click_home_dan_kembali_ke_my_task6() {
 		homeMyTask.backToHome();
 		extentTest.log(LogStatus.PASS, "User click home dan kembali ke my task");
+	}
+	
+	@Given("^User dapat click form data")
+	public void User_dapat_click_form_data() {
+		cutiPage.sidebarData();
+		extentTest.log(LogStatus.PASS, "User dapat click form data");
+	}
+	
+	@When("^User dapat click slip gaji")
+	public void User_dapat_click_slip_gaji() {
+		cutiPage.sidebarSlipgaji();
+		extentTest.log(LogStatus.PASS,"User dapat click slip gaji");
+	}
+	
+	@When("^User dapat click pengajuan cuti")
+	public void user_dapat_click_pengajuan_cuti() {
+		cutiPage.sidebarPengajuanCuti();
+		extentTest.log(LogStatus.PASS, "User dapat click pengajuan cuti");
+	}
+	
+	@When("^User mengadd form cuti")
+	public void user_mengadd_form_cuti() {
+		cutiPage.formCuti();
+		extentTest.log(LogStatus.PASS, "User mengadd form cuti");
+		
+	}
+	@When("^User memilih type annual")
+	public void User_memilih_Type_annual() {
+		cutiPage.selectType(1);
+		extentTest.log(LogStatus.ERROR, "System tiba tiba menutup form cuti");
+	}
+	@When("^User dapat click persetujuan cuti")
+	public void user_dapat_click_persetujuan_cuti() {
+		cutiPage.persetujuanCuti();
+		extentTest.log(LogStatus.PASS, "User dapat click persetujuan cuti");	
+	}
+	@When("^User dapat click pengajuan resign")
+	public void user_dapaat_click_pengajuan_resign() {
+		cutiPage.pengajuanResign();
+		extentTest.log(LogStatus.PASS, "User dapat click pengajuan resign");
+	}
+	@When("^User menambah request resign")
+	public void user_menambahkan_request_resign() {
+		cutiPage.requestResign();
+		extentTest.log(LogStatus.PASS, "User menambah request resign");
+	}
+	@When("^User dapat memilih salah satu radio button di alasan")
+	public void user_dapat_memilih_salah_satu_radio_button_di_alasan() {
+		cutiPage.alasanBtn();
+		extentTest.log(LogStatus.PASS, "User dapat memilih salah satu radio button di alasan");
+	}
+	@When("^User dapat menginput tanggal resign")
+	public void user_dapat_menginput_tanggal_resign() {
+	cutiPage.resignDate(configurationProperties.getResignDate());
+	extentTest.log(LogStatus.PASS, "User dapat menginput tanggal resign");
+	}
+	@When("^User dapat memilih salah satu yang ada di field bersedia rekrut kembali")
+	public void user_dapat_memilih_salah_satu_yang_ada_di_field_bersedia_rekrut_kembali() {
+		cutiPage.listRekrutKembali(2);
+		extentTest.log(LogStatus.ERROR, "Tidak dapat menampilkan");
+		
+	}
+	@When("^User dapat input answer")
+	public void user_dapat_input_answer() {
+		cutiPage.inputAnswer(
+		configurationProperties.getAnswer1(),configurationProperties.getAnswer2(),
+		configurationProperties.getAnswer3(),configurationProperties.getAnswer4());
+		extentTest.log(LogStatus.PASS, "User dapat input answer");
+		
+	}
+	@Then("^User dapat click submit")
+	public void user_dapat_click_submit() {
+		cutiPage.btnSubmit();
+		extentTest.log(LogStatus.PASS, "User dapat click submit dan data berhasil di kirim");
+	}
+	@Given("^User dapat click form data1")
+	public void user_dapat_click_form_data1() {
+		cutiPage.sidebarData1();
+		extentTest.log(LogStatus.PASS, "User dapat click form data1");
+	}
+	@When("^User dapat click survey")
+	public void user_dapat_click_survey() {
+		cutiPage.btnSurvey();
+		extentTest.log(LogStatus.PASS, "User dapat click survey");
+	}
+	@When("^User dapat click tanda tangan digital")
+	public void user_dapat_click_tanda_tangan_digital() {
+		cutiPage.btnTandaTanganDigital();
+		extentTest.log(LogStatus.PASS,"User dapat click tanda tangan digital");
+	}
+	@When("^User dapat menulis tanda tangannya")
+	public void user_dapat_menulis_tanda_tangannya() {
+		cutiPage.PenTandaTangan();
+		extentTest.log(LogStatus.PASS, "user dapat menulis tanda tangannya");
+	}
+	@When("^User dapat hapus tanda tangan")
+	public void user_dapat_hapus_tanda_tangan() {
+		cutiPage.HapusTTD();
+		extentTest.log(LogStatus.PASS, "User dapat hapus tanda tagana");
+	}
+	@When("^User dapat menulis tanda tangannya1")
+	public void user_dapat_menulis_tanda_tangannya1() {
+		cutiPage.PenTandaTangan();
+		extentTest.log(LogStatus.PASS, "User dapat menulis tanda tangannya1");
+	}
+	@When("^User dapat save tanda tangan")
+	public void user_dapat_menulis_tanda_tangan() {
+		cutiPage.SaveTTD();
+		extentTest.log(LogStatus.PASS, "User dapat save tanda tangan");
+	}
+//	promotion
+	@When("^User dapat click form promotion")
+	public void user_dapat_click_form_promotion() {
+		promotionPage.Promotion();
+		extentTest.log(LogStatus.PASS, "User dapat click form promotion");
+	}
+//	subPromotion
+	@When("^User dapat click sub promotion")
+	public void user_dapat_click_sub_promotion() {
+		promotionPage.subPromotion();
+		extentTest.log(LogStatus.PASS, "User dapat click sub promotion");
+	}
+//	addDataPromotion
+	@When("^User dapat click add data promotion")
+	public void user_dapat_click_data_promotion() {
+		promotionPage.addDataPromotion();
+		extentTest.log(LogStatus.PASS, "User dapat click add data promotion");
+	}
+//	kembali
+	@When("^User dapat click tombol kembali")
+	public void user_dapat_click_tombol_kembali() {
+		promotionPage.Kembali();
+		extentTest.log(LogStatus.PASS, "User dapat click tombol kembali");
+	}
+//	addDataPromotion1
+	@When("^User dapat click add data promotion1")
+	public void user_dapat_click_form_promotion1() {
+		promotionPage.addDataPromotion();
+		extentTest.log(LogStatus.PASS, "User dapat click form promotion1");
+	}
+	@When ("^User dapat click salah satu dari tujuan promosi")
+	public void user_dapat_click_salah_satu_dari_tujuan_promosi() {
+		promotionPage.TujuanPromosi();
+		extentTest.log(LogStatus.PASS, "User dapat click salah satu dari tujuan promosi");
+	}
+	@When("^User dapat click dan memilih nik yang di pilih")
+	public void user_dapat_click_dan_memilih_nik_yang_di_pilih() {
+		promotionPage.SelectNik(1);
+		extentTest.log(LogStatus.PASS, "User dapat click dan memilih nik yang di pilih");
+	}
+	@When("^User dapat input nominal gaji")
+	public void user_dapat_input_nominal_gaji() {
+		promotionPage.GajiPokok(configurationProperties.getGaji());
+		extentTest.log(LogStatus.ERROR, "tiba saja berubah kembali ke defaultnya");
+	}
+	@When("^User dapat input tunjangan jabatan")
+	public void user_dapat_input_tunjangan_jabatan() {
+		promotionPage.TunjanganJabatan(configurationProperties.getJabatan());
+		extentTest.log(LogStatus.ERROR, "setelah di input berubah lagi ke defaultnya");
 	}
 	
 	// Posts

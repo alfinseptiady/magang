@@ -1,3 +1,10 @@
 browser=Chrome
 myusername=EXD8120011
 password=admin12345
+resignDate=23/09/2022
+answer1=brokokok1
+answer2=brokokok2
+answer3=brokokok3
+answer4=brokokok4
+gaji=1000000
+jabatan=1000000
