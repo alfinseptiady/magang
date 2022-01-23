@@ -17,6 +17,9 @@ public class ConfigurationProperties {
 	@Value("${password}")
 	private String password;
 	
+	@Value("${tglcuti}")
+	private String tglcuti;
+	
 	@Value("${resignDate}")
 	private String resigndate;
 	
@@ -32,11 +35,44 @@ public class ConfigurationProperties {
 	@Value("${answer4")
 	private String Answer4;
 	
-	@Value("${gaji}")
-	private String gaji;
+	@Value("${pokok}")
+	private String pokok;
 	
-	@Value("&{jabatan}")
+	@Value("${jabatan}")
 	private String jabatan;
+	
+	@Value("${komunikasi}")
+	private String komunikasi;
+	
+	@Value("${transportasi}")
+	private String transportasi;
+	
+	@Value("${tglefektif}")
+	private String tglefektif;
+	
+	@Value("${asp1}")
+	private String asp1;
+	
+	@Value("${asp2}")
+	private String asp2;
+	
+	@Value("${asp3}")
+	private String asp3;
+	
+	@Value("${vaksinnote}")
+	private String vaksinnote;
+	
+	@Value("${nokartu}")
+	private String nokartu;
+	
+	@Value("${Namatanggung}")
+	private String Namatanggung;
+	
+	@Value("${Nilaiklaim}")
+	private String Nilaiklaim;
+	
+	
+	
 	
 //	
 	public String getBrowser() {
@@ -47,6 +83,9 @@ public class ConfigurationProperties {
 	}
 	public String getPassword() {
 		return password;
+	}
+	public String getTglCuti() {
+		return tglcuti;
 	}
 	public String getResignDate() {
 		return resigndate;
@@ -63,11 +102,42 @@ public class ConfigurationProperties {
 	public String getAnswer4() {
 		return Answer4;
 	}
-	public String getGaji() {
-		 return gaji;
+	public String getPokok() {
+		 return pokok;
 	}
 	public String getJabatan() {
 		return jabatan;
+	}
+	public String getKomunikasi() {
+		return komunikasi;
+	}
+	public String getTransportasi() {
+		return transportasi;
+	}
+	public String getTglEfektif() {
+		return tglefektif;
+	}
+	public String getAspek1() {
+		return asp1;
+	}
+	public String getAspek2() {
+		return asp2;
+	}
+	public String getAspek3() {
+		return asp3;
+	}
+	public String getVaksinNote() {
+		return vaksinnote;
+	}
+	public String getNokartu() {
+		return nokartu;
+			
+	}
+	public String getNamaTanggung() {
+		return Namatanggung;
+	}
+	public String getNilaiKlaim() {
+		return Nilaiklaim;
 	}
 	
 	
