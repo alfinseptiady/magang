@@ -192,13 +192,13 @@ public class StepDefinition {
 	public void user_dapat_click_select_priode() {
 		cutiPage.tunda();
 		cutiPage.SelectPriode();
-		extentTest.log(LogStatus.ERROR,"User tidak dapat memilih priode"+"<img src=\"screenshots/7.png\" width=\"250px\" height=\"75px\">");
+		extentTest.log(LogStatus.FAIL,"User tidak dapat memilih priode"+"<img src=\"screenshots/7.png\" width=\"250px\" height=\"75px\">");
 	}
 	@When("^User dapat click filter")
 	public void user_dapat_click_filter() {
 		cutiPage.tunda();
 		cutiPage.BtnFilter();
-		extentTest.log(LogStatus.ERROR,"tidak dapat menampilkan"+"<img src=\"screenshots/8.png\" width=\"250px\" height=\"75px\">");
+		extentTest.log(LogStatus.FAIL,"tidak dapat menampilkan"+"<img src=\"screenshots/8.png\" width=\"250px\" height=\"75px\">");
 	}
 	
 	@When("^User dapat click pengajuan cuti")
@@ -219,13 +219,13 @@ public class StepDefinition {
 	public void User_memilih_Type_annual() {
 		cutiPage.tunda();
 		cutiPage.selectType(1);
-		extentTest.log(LogStatus.ERROR, "System tiba tiba menutup form cuti"+"<img src=\"screenshots/9.png\" width=\"250px\" height=\"75px\">");
+		extentTest.log(LogStatus.FAIL, "System tiba tiba menutup form cuti"+"<img src=\"screenshots/9.png\" width=\"250px\" height=\"75px\">");
 	}
 	@When("^User memilih tanggal cuti")
 	public void user_memilih_tanggal_cuti() {
 		cutiPage.tunda();
 //		cutiPage.TanggalCuti(configurationProperties.getTglCuti());
-		extentTest.log(LogStatus.WARNING, "System Debug Sialan");
+		extentTest.log(LogStatus.FAIL, "Tidak dapat menginput tanggal");
 	}
 	@When("^User dapat click persetujuan cuti")
 	public void user_dapat_click_persetujuan_cuti() {
@@ -258,7 +258,7 @@ public class StepDefinition {
 	@When("^User dapat memilih salah satu yang ada di field bersedia rekrut kembali")
 	public void user_dapat_memilih_salah_satu_yang_ada_di_field_bersedia_rekrut_kembali() {
 		cutiPage.listRekrutKembali(2);
-		extentTest.log(LogStatus.ERROR, "Tidak dapat menampilkan"+"<img src=\"screenshots/10.png\" width=\"250px\" height=\"75px\">");
+		extentTest.log(LogStatus.FAIL, "Tidak dapat menampilkan"+"<img src=\"screenshots/10.png\" width=\"250px\" height=\"75px\">");
 		
 	}
 	@When("^User dapat input answer")
@@ -352,7 +352,7 @@ public class StepDefinition {
 	@When("^User dapat input nominal gaji pokok")
 	public void user_dapat_input_nominal_gaji_pokok() {
 		promotionPage.GajiPokok(configurationProperties.getPokok());
-		extentTest.log(LogStatus.ERROR, "nominalnya kembali ke default"+"<img src=\"screenshots/11.png\" width=\"250px\" height=\"75px\">");
+		extentTest.log(LogStatus.FAIL, "nominalnya kembali ke default"+"<img src=\"screenshots/11.png\" width=\"250px\" height=\"75px\">");
 	}
 	@When("^User dapat input tunjangan jabatan")
 	public void user_dapat_input_tunjangan_jabatan() {
@@ -367,7 +367,7 @@ public class StepDefinition {
 	@When("^User dapat input tunjangan transportasi")
 	public void user_dapat_input_tunjangan_trasnportasi() {
 		promotionPage.TunjanganKomunikasi(configurationProperties.getTransportasi());
-		extentTest.log(LogStatus.ERROR, "nominalnya kembali ke default"+"<img src=\"screenshots/12.png\" width=\"250px\" height=\"75px\">");
+		extentTest.log(LogStatus.FAIL, "nominalnya kembali ke default"+"<img src=\"screenshots/12.png\" width=\"250px\" height=\"75px\">");
 	}
 	@When("^User dapat input tanggal efektif")
 	public void user_dapat_input_tanggal_efektif() {
@@ -493,7 +493,7 @@ public class StepDefinition {
 	@When("^User dapat click tombol filter")
 	public void user_dapat_click_tombol_filter() {
 		promotionPage.BtnFilter();
-		extentTest.log(LogStatus.ERROR, "Tidak dapat menampilkan"+"<img src=\"screenshots/1.png\" width=\"250px\" height=\"75px\">");
+		extentTest.log(LogStatus.FAIL, "Tidak dapat menampilkan"+"<img src=\"screenshots/1.png\" width=\"250px\" height=\"75px\">");
 	}
 	//reimbursement
 	@When("^User dapat click reimbursement")
@@ -712,7 +712,7 @@ public class StepDefinition {
 	}
 	@When("^User click submit detail")
 	public void d18() {
-		extentTest.log(LogStatus.ERROR, "tidak dapat menekan tombol submit detail"+"<img src=\"screenshots/2.png\" width=\"250px\" height=\"75px\">");
+		extentTest.log(LogStatus.FAIL, "tidak dapat menekan tombol submit detail"+"<img src=\"screenshots/2.png\" width=\"250px\" height=\"75px\">");
 	}
 	@When("^User upload kwintasi13")
 	public void d19() {
@@ -736,11 +736,11 @@ public class StepDefinition {
 	}
 	@When("^User click reset")
 	public void d24() {
-		extentTest.log(LogStatus.ERROR, "Tidak dapat mereset"+"<img src=\"screenshots/3.png\" width=\"250px\" height=\"75px\">");
+		extentTest.log(LogStatus.FAIL, "Tidak dapat mereset"+"<img src=\"screenshots/3.png\" width=\"250px\" height=\"75px\">");
 	}
 	@When("^User click filter")
 	public void d25() {
-		extentTest.log(LogStatus.ERROR, "tidak dapa memfilter"+"<img src=\"screenshots/4.png\" width=\"250px\" height=\"75px\">");
+		extentTest.log(LogStatus.FAIL, "tidak dapa memfilter"+"<img src=\"screenshots/4.png\" width=\"250px\" height=\"75px\">");
 	}
 //	e=entertaiment approval
 	@When("^User click entertaiment approval")
@@ -766,11 +766,11 @@ public class StepDefinition {
 	}
 	@When("^User click reset13")
 	public void e6() {
-		extentTest.log(LogStatus.ERROR,"tidak dapat click reset"+"<img src=\"screenshots/5.png\" width=\"250px\" height=\"75px\">");
+		extentTest.log(LogStatus.FAIL,"tidak dapat click reset"+"<img src=\"screenshots/5.png\" width=\"250px\" height=\"75px\">");
 	}
 	@When("^User click filter13")
 	public void e7() {
-		extentTest.log(LogStatus.ERROR, "tidak dapat click filter"+"<img src=\"screenshots/6.png\" width=\"250px\" height=\"75px\">");
+		extentTest.log(LogStatus.FAIL, "tidak dapat click filter"+"<img src=\"screenshots/6.png\" width=\"250px\" height=\"75px\">");
 	}
 	
 //	f=request staff
